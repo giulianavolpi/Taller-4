@@ -19,7 +19,7 @@ public class Tablero
 	/**
 	 * Una matriz con las casillas del tablero: true significa que está apagado
 	 */
-	private boolean[][] tablero;
+	private static boolean[][] tablero;
 
 	/**
 	 * Una matriz con las casillas originales del tablero para poder repetir un
@@ -125,7 +125,7 @@ public class Tablero
 	 * 
 	 * @return tablero
 	 */
-	public boolean[][] darTablero()
+	public static boolean[][] darTablero()
 	{
 		return tablero;
 	}
