@@ -31,7 +31,8 @@ import java.util.PriorityQueue;
 public class Top10
 {
 	// ********************************
-	// Atributos
+	// Atributos Completado
+	
 	// ********************************
 
 	/**
